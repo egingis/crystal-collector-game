@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lan='en'>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Crystal Collector</title>
+  <link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 class="page-header" id="name">Crystal Collector</h1>
+    </div>
+    
+    <div class="row">
+      <h3 class="intro">You will be given a random number at the start of the game. There are four crystals below.
+        <br> By clicking on a crystal you will add a specific amount of points to your total score.
+        <br> You win the game by matching your total score to the random number, you lose the game if your total score goes above
+        the random number.
+        <br> The value of each crystal is hidden until clicked. Each new game, the crystals will have a new value. Good Luck!</h3>
+      <hr>
+    </div>
+
+    <div class="crystals">
+      <div class="col-sm-12">
+        <img src="assets/images/pinkgem.png" class="click" id="pink">
+        <img src="assets/images/silvergem.png" class="click" id="silver">
+        <img src="assets/images/greengem.png" class="click" id="green">
+        <img src="assets/images/bluegem.jpg" class="click" id="blue">
+      </div>
+    </div>
+
+    <div class="rows">
+      <div class="computerscore">
+        <h2>Computer Score</h2>
+      </div>
+
+      <div class="playerscore">
+        <h2>Your total score:</h2>
+      </div>
+      <div class="addition"></div>
+    </div>
+  </div>
+
+  <div class="scoreboard">
+    <h2>
+      Wins:
+      <div id="Wins"></div>
+      Losses:
+      <div id="Losses"></div>
+    </h2>
+  </div>
+  </div>
+
+<!-- reference to js -->
+<script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

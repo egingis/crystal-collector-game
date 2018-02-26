@@ -1,0 +1,45 @@
+body{
+  background: #ffffff;
+  font-family: 'Saira Condensed', sans-serif;
+  text-align: center;
+}
+
+.intro{
+  font-family: 'Saira Condensed', sans-serif;
+  background-color: #000000;
+  margin-bottom: 10px;
+  font-size: 23px;
+  color: #FFF;
+}
+
+.click{
+  width:100px;
+  height:100px;
+}
+
+.rowcrystals {
+  background-color: #000000;
+  color: #e1e8f0;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 23px;
+  margin-bottom: 50px;
+}
+
+.computerscore{
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 23px;
+  text-align: center;
+}
+
+.playerscore{
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 23px;
+  text-align: center;
+}
+
+.scoreboard{
+  font-family: 'Saira Condensed', sans-serif;
+  background-color: #ffffff;
+  font-size: 23px;
+  text-align: center;
+}
